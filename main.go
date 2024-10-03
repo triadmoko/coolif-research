@@ -8,7 +8,7 @@ func main() {
 
 	// Route dasar
 	app.Get("/", func(c *fiber.Ctx) error {
-		return c.SendString("Selamat datang di homepage")
+		return c.SendString("Selamat datang di sistem informasi")
 	})
 
 	// Route dengan parameter
